@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "app.aws",
+      "type": "com.pp.stpoint.config.AWSConfig",
+      "sourceType": "com.pp.stpoint.config.AWSConfig"
+    },
+    {
+      "name": "app.aws",
+      "type": "com.pp.stpoint.service.impl.S3FileService",
+      "sourceType": "com.pp.stpoint.service.impl.S3FileService"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.aws.accesskey",
+      "type": "java.lang.String",
+      "sourceType": "com.pp.stpoint.config.AWSConfig"
+    },
+    {
+      "name": "app.aws.accesskey",
+      "type": "java.lang.String",
+      "sourceType": "com.pp.stpoint.service.impl.S3FileService"
+    },
+    {
+      "name": "app.aws.bucket",
+      "type": "java.lang.String",
+      "sourceType": "com.pp.stpoint.config.AWSConfig"
+    },
+    {
+      "name": "app.aws.bucket",
+      "type": "java.lang.String",
+      "sourceType": "com.pp.stpoint.service.impl.S3FileService"
+    },
+    {
+      "name": "app.aws.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.pp.stpoint.config.AWSConfig"
+    },
+    {
+      "name": "app.aws.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.pp.stpoint.service.impl.S3FileService"
+    },
+    {
+      "name": "app.aws.secretkey",
+      "type": "java.lang.String",
+      "sourceType": "com.pp.stpoint.config.AWSConfig"
+    },
+    {
+      "name": "app.aws.secretkey",
+      "type": "java.lang.String",
+      "sourceType": "com.pp.stpoint.service.impl.S3FileService"
+    }
+  ],
+  "hints": []
+}
